@@ -245,6 +245,40 @@ header nav ul li:last-of-type a{
     line-height: 20px;
     color: #C0C0C0;
 }
+.past_clients{
+    background-color: #000000;
+    padding-top: 113px;
+    padding-bottom: 140px;
+}
+.past_clients .container{
+    max-width: 441px;
+    margin: 0  auto 82px;
+    text-align: center;
+}
+.past_clients h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+.past_clients h4{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #C0C0C0;
+}
+.past_clients .container_clients{
+    max-width: 1076px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .help_with{
     background-color: #000000;
     padding-top: 113px;
