@@ -291,21 +291,20 @@ header nav ul li:last-of-type a{
     align-items: center;
 }
 .past_clients .owl-nav .owl-prev{
-    background-color: #FFFFFF!important;
-    background-image: url("https://tpanda1983.github.io/california/images/chevron.svg")!important;
-    width: 14px;
-    height: 26px;
+    background-image: url("../images/arrow_left.png")!important;
+    width: 50px;
+    height: 50px;
     position: absolute;
-    left: -20px;
-    top: 30px;
+    left: -40px;
+    top: 15px;
 }
 .past_clients .owl-nav .owl-next{
-    background-color: green!important;
-    width: 20px;
-    height: 20px;
+    background-image: url("../images/arrow_right.png")!important;
+    width: 50px;
+    height: 50px;
     position: absolute;
-    right: -20px;
-    top: 30px;
+    right: -40px;
+    top: 15px;
 }
 .help_with{
     background-color: #000000;
@@ -370,18 +369,18 @@ footer .container{
     align-items: flex-start;
     padding-bottom: 36px;
 }
-footer .container:nth-child(2){
+footer .container:nth-of-type(2){
     border-top: solid 2px white;
     border-bottom: solid 2px white;
     padding: 36px 0;
     margin-bottom: 56px;
 }
-footer .container:nth-child(2) .ft_right{
+footer .container:nth-of-type(2) .ft_right{
     width: 100%;
     max-width: 458px;
 }
 footer .logo{
-    margin-bottom: 21px;
+    margin-bottom: 20px;
 }
 footer .ft_left p{
     font-family: 'Poppins',sans-serif;
@@ -460,5 +459,31 @@ footer .ft_right form button{
 footer .ft_icon{
     margin-left: 20px;
 }
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active, .ui-widget-content{
+    background-color: transparent;
+    border: none;
+}
+.ui-accordion .ui-accordion-content{
+    padding: 0;
+}
+.ui-accordion .ui-accordion-header{
+    max-width: 1168px;
+    margin: auto;
+    padding-bottom: 25px;
+}
+.ui-icon{
+    margin-right: 30px;
+}
+footer h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 42px;
+    color: #FFFFFF;
+}
+.ui-accordion .ui-accordion-header{
+    font-size: 23px;
+}
+
 
 

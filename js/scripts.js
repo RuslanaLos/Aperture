@@ -15,4 +15,23 @@ $(document).ready(function(){
             }
         }
     });
+    $( function() {
+        $( "#accordion" ).accordion();
+    } );
+    $("#accordion").accordion({
+        heightStyle: "content"
+    });
+    $('#accordion').accordion({
+        animate:{
+            duration:1000,
+            easing:'easeInOutSine'
+        }
+    });
+    $( "#accordion" ).accordion({
+        icons: { "header": "ui-icon-plus", "activeHeader": "ui-icon-minus" }
+    });
+
+
+
+
 });
