@@ -10,6 +10,9 @@ $(document).ready(function(){
             0:{
                 items:2
             },
+            280:{
+                items:1
+            },
             1000:{
                 items:5
             }
