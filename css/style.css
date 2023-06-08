@@ -464,7 +464,6 @@ footer .ft_icon{
     border: none;
 }
 .ui-accordion .ui-accordion-content{
-    padding: 0;
     border-top: solid 2px white;
     border-bottom: solid 2px white;
     padding: 36px 0;
