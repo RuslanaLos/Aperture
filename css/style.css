@@ -465,6 +465,9 @@ footer .ft_icon{
 }
 .ui-accordion .ui-accordion-content{
     padding: 0;
+    border-top: solid 2px white;
+    border-bottom: solid 2px white;
+    padding: 36px 0;
 }
 .ui-accordion .ui-accordion-header{
     max-width: 1168px;
@@ -484,6 +487,7 @@ footer h3{
 .ui-accordion .ui-accordion-header{
     font-size: 23px;
 }
+
 
 
 
