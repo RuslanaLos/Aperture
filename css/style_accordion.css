@@ -1,0 +1,29 @@
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active, .ui-widget-content {
+  background-color: transparent;
+  border: none;
+}
+
+.ui-accordion .ui-accordion-content {
+  border-top: solid 2px white;
+  border-bottom: solid 2px white;
+  padding: 36px 0;
+}
+
+.ui-accordion .ui-accordion-header {
+  max-width: 1168px;
+  margin: auto;
+  padding-bottom: 25px;
+}
+
+.ui-icon {
+  margin-right: 30px;
+}
+
+.ui-accordion .ui-accordion-header {
+  font-family: "Poppins", sans-serif;
+  line-height: 42px;
+  color: #FFFFFF;
+  font-size: 23px;
+}
+
+/*# sourceMappingURL=style_accordion.css.map */

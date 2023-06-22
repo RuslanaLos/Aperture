@@ -1,0 +1,61 @@
+@mixin max-screen($res) {
+  @media screen and (max-width: $res) {
+    @content;
+  }
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active, .ui-widget-content{
+  background-color: transparent;
+  border: none;
+}
+.ui-accordion .ui-accordion-content{
+  border-top: solid 2px white;
+  border-bottom: solid 2px white;
+  padding: 36px 0;
+}
+.ui-accordion .ui-accordion-header{
+  max-width: 1168px;
+  margin: auto;
+  padding-bottom: 25px;
+  @include max-screen(1024px) {
+    max-width: 964px;
+  }
+  @include max-screen(992px) {
+    max-width: 932px;
+  }
+  @include max-screen(834px) {
+    max-width: 760px;
+  }
+  @include max-screen(800px) {
+    max-width: 740px;
+  }
+  @include max-screen(768px) {
+    max-width: 708px;
+  }
+  @include max-screen(428px) {
+    max-width: 368px;
+  }
+  @include max-screen(390px) {
+    max-width: 330px;
+  }
+  @include max-screen(360px) {
+    max-width: 300px;
+  }
+  @include max-screen(320px) {
+    max-width: 290px;
+  }
+  @include max-screen(280px) {
+    max-width: 250px;
+  }
+}
+.ui-icon{
+  margin-right: 30px;
+}
+.ui-accordion .ui-accordion-header{
+  font-family: 'Poppins', sans-serif;
+  line-height: 42px;
+  color: #FFFFFF;
+  font-size: 23px;
+  @include max-screen(375px) {
+    font-size: 18px;
+  }
+}

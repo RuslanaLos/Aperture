@@ -1,0 +1,28 @@
+.past_clients .owl-item {
+  text-align: center;
+}
+
+.past_clients .owl-stage {
+  display: flex;
+  align-items: center;
+}
+
+.past_clients .owl-nav .owl-prev {
+  background-image: url("../images/arrow_left.png") !important;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: -40px;
+  top: 15px;
+}
+
+.past_clients .owl-nav .owl-next {
+  background-image: url("../images/arrow_right.png") !important;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  right: -40px;
+  top: 15px;
+}
+
+/*# sourceMappingURL=style_owl_carousel.css.map */
